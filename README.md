@@ -10,7 +10,7 @@ This research project investigates the capacity of Large Language Models (LLMs) 
 
 By bridging human psychophysics with computational modeling, this study evaluates whether generative AI can replicate human-like perceptual biases (repulsion/attraction effects) and how visual disparities (contrast, depth) and textual context influence these judgments.
 
-<img width="1582" height="378" alt="image" src="https://github.com/user-attachments/assets/78a622f7-18d5-4a79-b3e1-34c3f578c996" />
+<img width="500" height="378" alt="image" src="https://github.com/user-attachments/assets/78a622f7-18d5-4a79-b3e1-34c3f578c996" />
 
 
 
@@ -33,7 +33,7 @@ The framework is composed of three core modules:
     * Applies **Gaussian filtering** to simulate depth (shadows) and linear scaling for contrast adjustment.
     * **Conditions:** *No-Distractor* (Baseline), *Contrast Distractor*, and *Depth Distractor*.
   
-    <img width="639" height="654" alt="image" src="https://github.com/user-attachments/assets/5cd537d2-09eb-4d93-82ec-5b17d3a9bcf0" />
+    <img width="600" alt="image" src="https://github.com/user-attachments/assets/5cd537d2-09eb-4d93-82ec-5b17d3a9bcf0" />
 
 
 
