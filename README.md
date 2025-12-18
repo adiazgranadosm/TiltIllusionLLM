@@ -10,7 +10,8 @@ This research project investigates the capacity of Large Language Models (LLMs) 
 
 By bridging human psychophysics with computational modeling, this study evaluates whether generative AI can replicate human-like perceptual biases (repulsion/attraction effects) and how visual disparities (contrast, depth) and textual context influence these judgments.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/d8b6f87c-2f40-4a39-95e2-23f796bdccb3" />
+<img width="1582" height="378" alt="image" src="https://github.com/user-attachments/assets/78a622f7-18d5-4a79-b3e1-34c3f578c996" />
+
 
 
 ## Key Features
@@ -32,7 +33,8 @@ The framework is composed of three core modules:
     * Applies **Gaussian filtering** to simulate depth (shadows) and linear scaling for contrast adjustment.
     * **Conditions:** *No-Distractor* (Baseline), *Contrast Distractor*, and *Depth Distractor*.
   
-    <img width="400" alt="image" src="https://github.com/user-attachments/assets/f021bd3e-e51b-465e-9a83-0345438e578d" />
+    <img width="639" height="654" alt="image" src="https://github.com/user-attachments/assets/5cd537d2-09eb-4d93-82ec-5b17d3a9bcf0" />
+
 
 
 2.  **LLM Integration Module:**
@@ -53,7 +55,8 @@ The study was conducted through two primary experiments:
 * **Scope:** 1,140 trials across 3 image groups (114 unique images $\times$ 10 iterations).
 * **Findings:** LLMs mimic human bias by misclassifying vertical stimuli as tilted but lack the robust perceptual grouping mechanisms seen in human vision.
 
-<img width="1200" alt="image" src="https://github.com/user-attachments/assets/6f5c786a-6f8f-4ce3-8090-3ff70e7ddcaf" />
+<img width="1500" alt="image" src="https://github.com/user-attachments/assets/abec1af8-9e79-4fc9-bbc1-3067482b2425" />
+
 
 
 ### Experiment 2: Contextual Priming
@@ -61,7 +64,8 @@ The study was conducted through two primary experiments:
 * **Scope:** 380 trials comparing "Minimal Input" vs. "Contextual Explanation".
 * **Findings:** Contextual prompts significantly reduced response noise and aligned the model's decisions closer to human psychophysical patterns.
 
-<img width="1200" alt="image" src="https://github.com/user-attachments/assets/49edc24c-c0d6-44f6-8a39-212682835682" />
+<img width="1200" alt="image" src="https://github.com/user-attachments/assets/a7d68df3-3f9d-420c-8c45-bf46e1d7ece0" />
+
 
 
 ## 📊 Key Results
