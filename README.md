@@ -33,7 +33,7 @@ The framework is composed of three core modules:
     * Applies **Gaussian filtering** to simulate depth (shadows) and linear scaling for contrast adjustment.
     * **Conditions:** *No-Distractor* (Baseline), *Contrast Distractor*, and *Depth Distractor*.
   
-    <img width="600" alt="image" src="https://github.com/user-attachments/assets/5cd537d2-09eb-4d93-82ec-5b17d3a9bcf0" />
+    <img width="500" alt="image" src="https://github.com/user-attachments/assets/5cd537d2-09eb-4d93-82ec-5b17d3a9bcf0" />
 
 
 
@@ -55,7 +55,7 @@ The study was conducted through two primary experiments:
 * **Scope:** 1,140 trials across 3 image groups (114 unique images $\times$ 10 iterations).
 * **Findings:** LLMs mimic human bias by misclassifying vertical stimuli as tilted but lack the robust perceptual grouping mechanisms seen in human vision.
 
-<img width="1500" alt="image" src="https://github.com/user-attachments/assets/abec1af8-9e79-4fc9-bbc1-3067482b2425" />
+<img width="1700" alt="image" src="https://github.com/user-attachments/assets/abec1af8-9e79-4fc9-bbc1-3067482b2425" />
 
 
 
@@ -64,7 +64,7 @@ The study was conducted through two primary experiments:
 * **Scope:** 380 trials comparing "Minimal Input" vs. "Contextual Explanation".
 * **Findings:** Contextual prompts significantly reduced response noise and aligned the model's decisions closer to human psychophysical patterns.
 
-<img width="1200" alt="image" src="https://github.com/user-attachments/assets/a7d68df3-3f9d-420c-8c45-bf46e1d7ece0" />
+<img width="1500" alt="image" src="https://github.com/user-attachments/assets/a7d68df3-3f9d-420c-8c45-bf46e1d7ece0" />
 
 
 
