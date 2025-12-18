@@ -10,12 +10,18 @@ This research project investigates the capacity of Large Language Models (LLMs) 
 
 By bridging human psychophysics with computational modeling, this study evaluates whether generative AI can replicate human-like perceptual biases (repulsion/attraction effects) and how visual disparities (contrast, depth) and textual context influence these judgments.
 
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/d8b6f87c-2f40-4a39-95e2-23f796bdccb3" />
+
+
 ## Key Features
 
 * **Synthetic Dataset Generation:** Automated pipeline to create sinusoidal grating stimuli with adjustable parameters for orientation ($ -90^\circ$ to $90^\circ$), contrast, and stereoscopic depth cues (shadows).
 * **Multimodal LLM Integration:** Uses the OpenAI Vision API to process image-based inputs, evaluating the model's ability to classify orientation (Clockwise vs. Anticlockwise).
 * **Perceptual Segmentation Testing:** Analysis of how visual "segmentation" cues (distractors) affect the magnitude of the illusion in AI models.
 * **Contextual Priming:** Evaluates the impact of "System Prompts" explaining the illusion versus minimal-context prompting to test semantic sensitivity.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/1e714706-671d-4c00-b7d6-b0775e2f8297" />
+
 
 ## System Architecture
 
@@ -25,6 +31,9 @@ The framework is composed of three core modules:
     * Constructs center-surround sinusoidal patterns.
     * Applies **Gaussian filtering** to simulate depth (shadows) and linear scaling for contrast adjustment.
     * **Conditions:** *No-Distractor* (Baseline), *Contrast Distractor*, and *Depth Distractor*.
+  
+    <img width="400" alt="image" src="https://github.com/user-attachments/assets/f021bd3e-e51b-465e-9a83-0345438e578d" />
+
 
 2.  **LLM Integration Module:**
     * Interacts with the OpenAI API using binary classification prompts.
@@ -44,10 +53,16 @@ The study was conducted through two primary experiments:
 * **Scope:** 1,140 trials across 3 image groups (114 unique images $\times$ 10 iterations).
 * **Findings:** LLMs mimic human bias by misclassifying vertical stimuli as tilted but lack the robust perceptual grouping mechanisms seen in human vision.
 
+<img width="1200" alt="image" src="https://github.com/user-attachments/assets/6f5c786a-6f8f-4ce3-8090-3ff70e7ddcaf" />
+
+
 ### Experiment 2: Contextual Priming
 * **Objective:** Assess if explaining the illusion in the prompt alters the model's perception.
 * **Scope:** 380 trials comparing "Minimal Input" vs. "Contextual Explanation".
 * **Findings:** Contextual prompts significantly reduced response noise and aligned the model's decisions closer to human psychophysical patterns.
+
+<img width="1200" alt="image" src="https://github.com/user-attachments/assets/49edc24c-c0d6-44f6-8a39-212682835682" />
+
 
 ## 📊 Key Results
 
