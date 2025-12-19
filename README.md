@@ -81,7 +81,7 @@ The study was conducted through two primary experiments:
 - tilt_illusion_responses/: Stores the raw experimental data logs (CSV files) capturing the LLM's classification outputs for each trial.
 
 - Requirements.txt: Lists the necessary Python libraries for image generation (Pillow, numpy), API interaction (openai), and data visualization (matplotlib, pandas).
-- 
+  
 ## License
 
 This project is for academic research purposes.
