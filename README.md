@@ -65,7 +65,7 @@ The study was conducted through two primary experiments:
 * **Scope:** 380 trials comparing "Minimal Input" vs. "Contextual Explanation".
 * **Findings:** Contextual prompts significantly reduced response noise and aligned the model's decisions closer to human psychophysical patterns.
 
-<img width="1500" alt="image" src="https://github.com/user-attachments/assets/7199d730-3309-476e-95b4-c59493d83d3d" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/7199d730-3309-476e-95b4-c59493d83d3d" />
 
 
 ## 📊 Key Results
