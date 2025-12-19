@@ -16,12 +16,22 @@ By bridging human psychophysics with computational modeling, this study evaluate
 
 ## Key Features
 
-* **Synthetic Dataset Generation:** Automated pipeline to create sinusoidal grating stimuli with adjustable parameters for orientation ($ -90^\circ$ to $90^\circ$), contrast, and stereoscopic depth cues (shadows).
+* **Synthetic Dataset Generation:** Automated pipeline to create sinusoidal grating stimuli with adjustable parameters for orientation, contrast, and stereoscopic depth cues (shadows).
 * **Multimodal LLM Integration:** Uses the OpenAI Vision API to process image-based inputs, evaluating the model's ability to classify orientation (Clockwise vs. Anticlockwise).
 * **Perceptual Segmentation Testing:** Analysis of how visual "segmentation" cues (distractors) affect the magnitude of the illusion in AI models.
 * **Contextual Priming:** Evaluates the impact of "System Prompts" explaining the illusion versus minimal-context prompting to test semantic sensitivity.
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/1e714706-671d-4c00-b7d6-b0775e2f8297" />
+
+# Repo structure
+
+- Tilt_ilusion_LLM.ipynb: This is the primary orchestrator notebook that executes the entire experimental pipeline: it generates the synthetic grating stimuli (Baseline, Contrast, Depth), interfaces with the OpenAI Vision API to collect model responses, and performs the statistical analysis (CDFs/bias curves) to visualize the results.
+
+- tilt_illusion_images_*/: These directories contain the generated synthetic dataset of sinusoidal grating images used as stimuli, categorized by experimental condition (No Distractor, Contrast Distractor, Depth Distractor).
+
+- tilt_illusion_responses/: Stores the raw experimental data logs (CSV files) capturing the LLM's classification outputs for each trial.
+
+- Requirements.txt: Lists the necessary Python libraries for image generation (Pillow, numpy), API interaction (openai), and data visualization (matplotlib, pandas).
 
 
 ## System Architecture
