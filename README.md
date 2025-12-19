@@ -23,17 +23,6 @@ By bridging human psychophysics with computational modeling, this study evaluate
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/1e714706-671d-4c00-b7d6-b0775e2f8297" />
 
-# Repo structure
-
-- Tilt_ilusion_LLM.ipynb: This is the primary orchestrator notebook that executes the entire experimental pipeline: it generates the synthetic grating stimuli (Baseline, Contrast, Depth), interfaces with the OpenAI Vision API to collect model responses, and performs the statistical analysis (CDFs/bias curves) to visualize the results.
-
-- tilt_illusion_images_*/: These directories contain the generated synthetic dataset of sinusoidal grating images used as stimuli, categorized by experimental condition (No Distractor, Contrast Distractor, Depth Distractor).
-
-- tilt_illusion_responses/: Stores the raw experimental data logs (CSV files) capturing the LLM's classification outputs for each trial.
-
-- Requirements.txt: Lists the necessary Python libraries for image generation (Pillow, numpy), API interaction (openai), and data visualization (matplotlib, pandas).
-
-
 ## System Architecture
 
 The framework is composed of three core modules:
@@ -82,6 +71,17 @@ The study was conducted through two primary experiments:
 * **Context Sensitivity:** While visual segmentation cues (depth/contrast) had a weak effect on the model, **textual context** strongly influenced decision-making, confirming that LLMs rely more on semantic instruction than visual perceptual grouping.
 * **Uncertainty:** In the absence of context, the model exhibited high variability (noise), whereas context stabilized the probability distribution curves.
 
+
+## Repo structure
+
+- Tilt_ilusion_LLM.ipynb: This is the primary orchestrator notebook that executes the entire experimental pipeline: it generates the synthetic grating stimuli (Baseline, Contrast, Depth), interfaces with the OpenAI Vision API to collect model responses, and performs the statistical analysis (CDFs/bias curves) to visualize the results.
+
+- tilt_illusion_images_*/: These directories contain the generated synthetic dataset of sinusoidal grating images used as stimuli, categorized by experimental condition (No Distractor, Contrast Distractor, Depth Distractor).
+
+- tilt_illusion_responses/: Stores the raw experimental data logs (CSV files) capturing the LLM's classification outputs for each trial.
+
+- Requirements.txt: Lists the necessary Python libraries for image generation (Pillow, numpy), API interaction (openai), and data visualization (matplotlib, pandas).
+- 
 ## License
 
 This project is for academic research purposes.
