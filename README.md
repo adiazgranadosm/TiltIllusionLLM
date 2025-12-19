@@ -91,12 +91,6 @@ The study was conducted through two primary experiments:
     python analyze_results.py --input "data/experiment_logs.csv" --plot cdf
     ```
 
-## References
-
-* **Qiu, C., et al. (2013).** Segmentation Decreases the Magnitude of the Tilt Illusion. *Journal of Vision*.
-* **Qiu, C., et al. (2012).** Segmentation Effects on the Tilt Illusion: Contrast and Depth. *Journal of Vision*.
-* **OpenAI.** (2025). OpenAI Platform Documentation.
-
 ## License
 
 This project is for academic research purposes.
