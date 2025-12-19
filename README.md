@@ -58,8 +58,6 @@ The study was conducted through two primary experiments:
 <img width="1700" height="372" alt="image" src="https://github.com/user-attachments/assets/a9f89582-e3f7-4a83-b896-88b947577580" />
 
 
-
-
 ### Experiment 2: Contextual Priming
 * **Objective:** Assess if explaining the illusion in the prompt alters the model's perception.
 * **Scope:** 380 trials comparing "Minimal Input" vs. "Contextual Explanation".
@@ -73,23 +71,6 @@ The study was conducted through two primary experiments:
 * **Bias Replication:** The model successfully demonstrated human-like "repulsion" effects, frequently misclassifying vertical lines ($0^\circ$) as tilted under no-distractor conditions.
 * **Context Sensitivity:** While visual segmentation cues (depth/contrast) had a weak effect on the model, **textual context** strongly influenced decision-making, confirming that LLMs rely more on semantic instruction than visual perceptual grouping.
 * **Uncertainty:** In the absence of context, the model exhibited high variability (noise), whereas context stabilized the probability distribution curves.
-
-## Usage
-
-1.  **Generate Dataset:**
-    ```bash
-    python generate_stimuli.py --mode batch --distractors [contrast, depth]
-    ```
-
-2.  **Run Experiment:**
-    ```bash
-    python run_experiment.py --api_key "YOUR_KEY" --prompt_type "context"
-    ```
-
-3.  **Analyze Results:**
-    ```bash
-    python analyze_results.py --input "data/experiment_logs.csv" --plot cdf
-    ```
 
 ## License
 
