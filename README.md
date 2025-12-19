@@ -74,15 +74,6 @@ The study was conducted through two primary experiments:
 * **Context Sensitivity:** While visual segmentation cues (depth/contrast) had a weak effect on the model, **textual context** strongly influenced decision-making, confirming that LLMs rely more on semantic instruction than visual perceptual grouping.
 * **Uncertainty:** In the absence of context, the model exhibited high variability (noise), whereas context stabilized the probability distribution curves.
 
-## Dependencies
-
-* `python` (3.x)
-* `openai` (API integration)
-* `numpy` (Matrix operations for image generation)
-* `matplotlib` / `seaborn` (Statistical plotting)
-* `pandas` (Data logging and CSV manipulation)
-* `Pillow` (Image processing)
-
 ## Usage
 
 1.  **Generate Dataset:**
