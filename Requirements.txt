@@ -1,0 +1,14 @@
+# LLM Integration
+openai>=1.0.0           # OpenAI API client
+python-dotenv>=1.0.0    # For managing API keys securely
+
+# Data Manipulation & Image Processing
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0          # For generating sinusoidal grating stimuli
+scipy>=1.10.0           # For Gaussian filters (shadows/depth)
+
+# Visualization & Statistics
+matplotlib>=3.7.0
+seaborn>=0.12.0         # For CDF and trend curves
+statsmodels>=0.14.0     # For statistical significance testing
